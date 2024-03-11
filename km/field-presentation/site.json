@@ -1,0 +1,85 @@
+{
+  "$id": "ce_site",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "ce_site",
+  "displayName": "Site",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        }
+      ]
+    },
+    {
+      "displayName": "Header",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_header"
+        }
+      ]
+    },
+    {
+      "displayName": "Footer",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_copyrightMessage"
+        },
+        {
+          "id": "c_footerLinks"
+        }
+      ]
+    },
+    {
+      "displayName": "Social Links",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_facebook"
+        },
+        {
+          "id": "c_youtube"
+        },
+        {
+          "id": "c_twitter"
+        },
+        {
+          "id": "c_linkedIn"
+        },
+        {
+          "id": "c_instagram"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        }
+      ]
+    }
+  ]
+}
+

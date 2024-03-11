@@ -1,0 +1,59 @@
+{
+  "$id": "c_cTA",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "displayName": "CTA",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "link",
+          "displayName": "Link",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "label",
+          "displayName": "Label",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "linkType",
+          "displayName": "Link Type",
+          "isRequired": false,
+          "typeId": "option",
+          "type": {
+            "optionType": {
+              "option": [
+                {
+                  "displayName": "URL",
+                  "textValue": "URL"
+                },
+                {
+                  "displayName": "Email",
+                  "textValue": "Email"
+                },
+                {
+                  "displayName": "Phone",
+                  "textValue": "Phone"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

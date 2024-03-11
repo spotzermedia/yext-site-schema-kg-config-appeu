@@ -1,0 +1,47 @@
+{
+  "$id": "c_header",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "displayName": "Header",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "logo",
+          "displayName": "Logo",
+          "isRequired": false,
+          "typeId": "image",
+          "type": {
+            "imageType": {
+              "isSimpleImage": true,
+              "unconstrainedAspectRatioAllowed": true
+            }
+          }
+        },
+        {
+          "name": "logoLink",
+          "displayName": "Logo Link",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "links",
+          "displayName": "Links",
+          "isRequired": false,
+          "typeId": "list",
+          "type": {
+            "listType": {
+              "typeId": "c_cTA",
+              "maxLength": 5000
+            }
+          }
+        }
+      ]
+    }
+  }
+}
